@@ -1,0 +1,76 @@
+NCI Concept
+├── Activity (C43431) 
+│   └──  Action (C25404) 
+│       └──  Expand (C96889) 
+│           └── Sexual Orientation Expanded Status
+├── Conceptual Entity (C20181) 
+│   ├──  Code (C25162) 
+│   │   └──  Postal Code (C25621) 
+│   │       └── Address Postal Code
+│   ├──  Geographic Area (C16632) 
+│   │   ├──  City (C25160) 
+│   │   │   └── Address City Name
+│   │   ├──  County (C49292) 
+│   │   │   └── Address County Name
+│   │   └──  State (C87194) 
+│   │       └── Address State Code
+│   ├──  Group (C43359) 
+│   │   └──  Population Group (C17005) 
+│   │       ├──  Ethnic Group (C16564) 
+│   │       │   └── Ethnicity
+│   │       └──  Race (C17049) 
+│   │           └── Race
+│   ├──  Intellectual Property (C97331) 
+│   │   └──  Document (C19498) 
+│   │       ├──  Address (C25407) 
+│   │       │   ├── Address City Name
+│   │       │   ├── Address County Name
+│   │       │   ├── Address Postal Code
+│   │       │   ├── Address State Code
+│   │       │   └── Full Residential Address
+│   │       └──  Identifier (C25364) 
+│   │           └──  Unique Identifier (C70663) 
+│   │               └── Unique ID
+│   ├──  Name (C42614) 
+│   │   └──  Person Name (C25191) 
+│   │       ├──  First Name (C40974) 
+│   │       │   └── First Name
+│   │       ├──  Last Name (C40975) 
+│   │       │   └── Last Name
+│   │       └── Full Name
+│   ├──  Person (C25190) 
+│   │   ├──  Family Member (C41256) 
+│   │   │   └──  Relative (C21480) 
+│   │   │       └──  Parent (C42709) 
+│   │   │           └── Parent's Current Educational Attainment
+│   │   └──  Patient (C16960) 
+│   │       └── Date of Birth
+│   └──  Social Circumstances (C20188) 
+│       └──  Socioeconomic Factors (C17468) 
+│           └──  Education Level (C17953) 
+│               └── Parent's Current Educational Attainment
+└── Property or Attribute (C20189) 
+    ├──  Person/Individual Attribute (C171087) 
+    │   └──  Personal Attribute (C19332) 
+    │       ├──  Age (C25150) 
+    │       │   ├── Age
+    │       │   └── Age Units
+    │       ├──  Marital Status (C25188) 
+    │       │   └── Marital Status
+    │       └──  Sexual Orientation (C84361) 
+    │           ├── Sexual Orientation Expanded Status
+    │           └── Sexual Orientation Status
+    ├──  Qualifier (C41009) 
+    │   ├──  Clinical or Research Assessment Answer (C91106) 
+    │   │   └──  Complete (C25250) 
+    │   │       └── Parent's Current Educational Attainment
+    │   ├──  General Qualifier (C27993) 
+    │   │   └──  Full (C25517) 
+    │   │       ├── Full Name
+    │   │       └── Full Residential Address
+    │   └──  Temporal Qualifier (C21514) 
+    │       └──  Date (C25164) 
+    │           └──  Birth Date (C68615) 
+    │               └── Date of Birth
+    └──  Unit of Measure (C25709) 
+        └── Age Units
