@@ -1,0 +1,1 @@
+a script which uses API to UMLS to retrieve NCI, or LOINC or SNOMEDCT_US concept CUIs for a given UMLS CUI.
