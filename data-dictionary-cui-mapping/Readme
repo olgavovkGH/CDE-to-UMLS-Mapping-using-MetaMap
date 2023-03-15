@@ -1,0 +1,8 @@
+The set of scripts (developed by Kevin A  from BRICS: https://brics.cit.nih.gov/) is designed to map CDE attributes to UMLS concepts.
+can be run either as Jupiter notebook files (.ipynb or a Python scripts (.py) 
+The main repository for development of these scripts is https://github.com/kevon217/data-dictionary-cui-mapping
+
+Requirements
+To use the MetaMap python API requires to build it on your local the Python-based API 
+created for the Indexing Initiative Scheduler facility (NLM) used to provide users with the ability to programmatically submit jobs to 
+the Scheduler Batch and Interactive facilities. Available at https://github.com/lhncbc/skr_web_python_api
