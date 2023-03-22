@@ -1,11 +1,57 @@
-# CDE-to-UMLS-Mapping-using-MetaMap
-This is a temporary repository to share files with Kevin and Sofia,
-Before Kevin completes creating his repository
+++Acknowledgements++
 
-1.)	UMLS to NCI Final zip file (includes the input file and main script file)
-  a.	We did not address the symbols yet (I’m not sure if it was discussed with Denise)
+Special thanks to Denise Warzel (NIH/NCI) [E] and Smita Hastak (NIH/NCI) [Samvit Solutions] for guidance and feedback.
 
-2.)	NCI Tree Lineage Final zip file (includes the Excel input file and main script file)
-  a.	As a result of the input file being in Excel format, we are able to do the conversion to csv UTF-8 within the Python script which results in a clean file without symbols
+Special thanks to Kevin Armengol (Kevin's GitHub: https://github.com/kevon217/data-dictionary-cui-mapping) and Henry Ogoe from BRICS (https://brics.cit.nih.gov/)
+and Sofia Syed [Samvit Solutions] for developing the scripts.
 
-3.) NCI concept lineage retrieval from the EVS file (based on Wendy’s formula) script - not uploaded because Sofia is still working on it
+The MetaMap API code included is from Will J Roger's repository --> https://github.com/lhncbc/skr_web_python_api
+
+Special thanks to Francois Lang (NIH/NLM/LHC) for providing the help and guidance on use of UMLS MetaMap (https://www.nlm.nih.gov/research/umls/implementation_resources/metamap.html)
+and for answering our multiple questions.
+
+Special thnaks to Wendy Ver Hoef, (NIH/NCI) [Samvit Solutions] for developing the technique of retrieving the NCIt concept lineage from NCI Thesaurus Download file (https://evs.nci.nih.gov/evs-download/thesaurus-downloads)
+
+++ Requirements++
+
+
+The scripts were tested under Anaconda Navigator (Anaconda 3) 
+
+Tools:
+Anaconda distribution, JupyterLab, Jupyter Notebooks
+
++++Modules used:+++
+
+The modules needed to run the above three scripts include the following:
+
+Pandas;
+Numpy;
+OS;
+treelib;
+Tree(from treelib);
+pathlib;
+Path(from Path);
+shutil;
+glob;
+tkinter;
+filedialog(from tkinter);
+json;
+pprint;
+openpyxl;
+requests;
+
+To use the MetaMap python API requires to build it on your local the Python-based API 
+created for the Indexing Initiative Scheduler facility (NLM) used to provide users with the ability to programmatically submit jobs to 
+the Scheduler Batch and Interactive facilities. Available at https://github.com/lhncbc/skr_web_python_api
+
+Anaconda environment: 
+Download the environment files to use in Anaconda, to make your life easier.
+
++++ UMLS API+++
+
+
+The UMLS API key needed which can be found in the "My Profile" section of your account at UMLS (https://uts.nlm.nih.gov/uts/login).
+
+umls_api_settings:
+  url : "https://utslogin.nlm.nih.gov/cas/v1/api-key"
+  uri :  "https://uts-ws.nlm.nih.gov"
