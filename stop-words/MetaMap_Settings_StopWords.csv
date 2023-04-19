@@ -80,7 +80,6 @@
 79,astride,Terrier package stop word,Yes
 80,astrider,Terrier package stop word,Yes
 81,astridest,Terrier package stop word,Yes
-82,at,PubMed,Yes
 83,at home,mapping,Yes
 84,athwart,Terrier package stop word,Yes
 85,atop,Terrier package stop word,Yes
@@ -167,8 +166,6 @@
 166,current,mapping,Yes
 167,currently,amarallab,Yes
 168,data,Stopwords in technical language processing,Yes
-169,Date,caDSR rep terms,Yes
-170,Date and'time,caDSR rep terms,Yes
 171,dday,Terrier package stop word,Yes
 172,ddays,Terrier package stop word,Yes
 173,definitely,amarallab,Yes
@@ -182,8 +179,7 @@
 181,device,Stopwords in technical language processing,Yes
 182,diagnosis,mapping,Yes
 183,did,PubMed,Yes
-184,did,snowball stemmer stop word,Yes
-185,didn,amarallab,Yes
+185,did not,amarallab,Yes
 186,differenter,Terrier package stop word,Yes
 187,differentest,Terrier package stop word,Yes
 188,disclose,Stopwords in technical language processing,Yes
@@ -337,7 +333,6 @@
 336,huh,Terrier package stop word,Yes
 337,humph,Terrier package stop word,Yes
 338,i,PubMed,Yes
-339,i,snowball stemmer stop word,Yes
 340,i'd,snowball stemmer stop word,Yes
 341,idem,Terrier package stop word,Yes
 342,idemer,Terrier package stop word,Yes
@@ -364,9 +359,8 @@
 363,inwardest,Terrier package stop word,Yes
 364,inwards,Terrier package stop word,Yes
 365,is,PubMed,Yes
-366,is,snowball stemmer stop word,Yes
-367,isn,amarallab,Yes
-368,it,PubMed,Yes
+367,isn't,amarallab,Yes
+368,is not,PubMed,Yes
 369,it,snowball stemmer stop word,Yes
 370,it is,mapping,Yes
 371,it s,amarallab,Yes
@@ -444,8 +438,8 @@
 443,musts,Terrier package stop word,Yes
 444,my,snowball stemmer stop word,Yes
 445,myself,snowball stemmer stop word,Yes
-446,name,amarallab,Yes
-447,"name, Name",caDSR rep terms,Yes
+446,names,amarallab,Yes
+447,"naming, Names",caDSR rep terms,Yes
 448,namely,amarallab,Yes
 449,natheless,Terrier package stop word,Yes
 450,nathless,Terrier package stop word,Yes
@@ -883,3 +877,7 @@
 882,"limit, Limit",caDSR rep terms,Yes
 883,Subclass,mapping,Yes
 884,Assessment,mapping,Yes
+885,specify,mapping,Yes
+886,Specity,mapping,Yes
+887,Other,mapping,Yes
+888,average,mapping,Yes
